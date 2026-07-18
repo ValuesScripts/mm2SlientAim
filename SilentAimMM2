@@ -1,10 +1,3 @@
 -- credit for Syntax guy for making the script
-local function main2()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ValuesScripts/mm2SlientAim/refs/heads/main/mm22"))()
-end
-local function main1()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/ValuesScripts/mm2SlientAim/refs/heads/main/mm2"))()
-end
-
-task.spawn(main2)
-task.spawn(main1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ValuesScripts/mm2SlientAim/refs/heads/main/mm22"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ValuesScripts/mm2SlientAim/refs/heads/main/mm2"))()
